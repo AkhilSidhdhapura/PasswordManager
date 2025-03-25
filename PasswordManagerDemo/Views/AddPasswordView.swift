@@ -69,17 +69,7 @@ struct AddPasswordView: View {
                                 RoundedRectangle(cornerRadius: 6)
                                     .stroke(self.isEmailError ? Color.red : Color.text, lineWidth: 0.6)
                             }
-                        
-//                        SecureField("Password", text: $password)
-//                            .textFieldStyle(PlainTextFieldStyle())
-//                            .padding(.horizontal)
-//                            .frame(height: 44)
-//                            .background(Color.white.cornerRadius(6))
-//                            .overlay {
-//                                RoundedRectangle(cornerRadius: 6)
-//                                    .stroke(self.isPasswordError ? Color.red : Color.text, lineWidth: 0.6)
-//                            }
-                        
+
                         VStack {
                             TextField("Enter Password", text: $password)
 //                            SecureField("Enter Password", text: $password)
